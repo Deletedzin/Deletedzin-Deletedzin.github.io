@@ -18,19 +18,16 @@
             align-items: center;
             height: 100vh;
         }
-
         .image-container {
             position: relative;
             margin-bottom: 30px;
         }
-
         .image-container img {
             max-width: 100%;
             height: 300px;
             border-radius: 0px;
             box-shadow: 0 8px 10px rgba(245, 247, 126, 0.829);
         }
-
         .arrow {
             position: absolute;
             top: 50%;
@@ -39,15 +36,12 @@
             color: white;
             cursor: pointer;
         }
-
         .arrow.left {
             left: -50px;
         }
-
         .arrow.right {
             right: -50px;
         }
-
         audio {
             width: 100%;
             max-width: 600px;
@@ -57,7 +51,7 @@
         }
     </style>
 </head>
-
+    
 <body>
     <!-- Contêiner da Imagem com Setas -->
     <div class="image-container">
