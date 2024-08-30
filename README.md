@@ -11,7 +11,7 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            background-color: #070710;
+            background-image: power-poles-purple-sky-pixel-moewalls-com.mp4;
             display: flex;
             flex-direction: column;
             justify-content: center;
