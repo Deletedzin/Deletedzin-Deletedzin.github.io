@@ -11,23 +11,34 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            background-image: power-poles-purple-sky-pixel-moewalls-com.mp4;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            overflow: hidden; /* Evita barras de rolagem indesejadas */
             height: 100vh;
+            position: relative; /* Necessário para o posicionamento absoluto do vídeo */
         }
+
+        /* Vídeo como plano de fundo */
+        #backgroundVideo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Faz com que o vídeo cubra a área sem distorção */
+            z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+        }
+
         .image-container {
             position: relative;
             margin-bottom: 30px;
         }
+
         .image-container img {
             max-width: 100%;
             height: 300px;
             border-radius: 0px;
             box-shadow: 0 8px 10px rgba(245, 247, 126, 0.829);
         }
+
         .arrow {
             position: absolute;
             top: 50%;
@@ -36,12 +47,15 @@
             color: white;
             cursor: pointer;
         }
+
         .arrow.left {
             left: -50px;
         }
+
         .arrow.right {
             right: -50px;
         }
+
         audio {
             width: 100%;
             max-width: 600px;
@@ -51,8 +65,14 @@
         }
     </style>
 </head>
-    
+
 <body>
+    <!-- Vídeo de Plano de Fundo -->
+    <video id="backgroundVideo" autoplay muted loop>
+        <source src="power-poles-purple-sky-pixel-moewalls-com.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos HTML5.
+    </video>
+
     <!-- Contêiner da Imagem com Setas -->
     <div class="image-container">
         <!-- Seta Esquerda -->
