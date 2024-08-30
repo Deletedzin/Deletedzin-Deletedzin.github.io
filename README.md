@@ -54,9 +54,10 @@
         <!-- Substitua pela URL relativa ou pelo caminho do arquivo no GitHub -->
         <img src="jojo-anime.gif" alt="Imagem Centralizada">
     </div>
-    <audio controls style="opacity: 0.5;">
-        <source src="resonance - home (slowed & reverb).mp3" type="audio/mpeg">
-    </audio>
+   <audio controls style="opacity: 0.5;">
+    <source src="resonance - home (slowed & reverb).mp3" type="audio/mpeg">
+</audio>
+    
 </body>
 
 </html>
