@@ -11,7 +11,7 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            background-color: #110a24;
+            background-color: #070710;
             display: flex;
             flex-direction: column;
             justify-content: center;
