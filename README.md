@@ -16,8 +16,8 @@
             position: relative; /* Necessário para o posicionamento absoluto do vídeo */
         }
 
-    
-        <video id="power-poles-purple-sky-pixel-moewalls-com.mp4" autoplay muted loop>{
+        /* Vídeo como plano de fundo */
+        #backgroundVideo {
             position: absolute;
             top: 0;
             left: 0;
