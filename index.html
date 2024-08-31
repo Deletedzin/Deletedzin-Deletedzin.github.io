@@ -17,18 +17,7 @@
             align-items: center;
             height: 100vh;
             overflow: hidden;
-            position: relative;
-        }
-
-        /* Vídeo de fundo */
-        .background-video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Faz com que o vídeo cubra toda a tela */
-            z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+            background: linear-gradient(to bottom right, #a8e6cf, #dcedc1); /* Gradiente suave */
         }
 
         .image-container {
@@ -71,12 +60,6 @@
 </head>
 
 <body>
-    <!-- Vídeo de fundo -->
-    <video class="background-video" autoplay muted loop>
-        <source src="power-poles-purple-sky-pixel-moewalls-com.mp4" type="video/mp4">
-
-    </video>
-
     <!-- Contêiner da Imagem com Setas -->
     <div class="image-container">
         <!-- Seta Esquerda -->
@@ -97,7 +80,7 @@
     <script>
         // Array de imagens e músicas
         const media = [
-            { img: "jojo-anime.gif", music: "resonance - home (slowed & reverb).mp3" },
+            { img: "madoka-madoka-kaname.gif", music: "resonance - home (slowed & reverb).mp3" },
             { img: "jjk-manga.gif", music: "the sylvers - remember the rain __SLOWED__.mp3" },
             { img: "imagem3.gif", music: "musica3.mp3" }
         ];
