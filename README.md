@@ -11,7 +11,8 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            background-image: url('power-poles-purple-sky-pixel-moewalls-com.gif'); /* URL do seu GIF */
+            background-image: url('power-poles-purple-sky-pixel-moewalls-com.gif');
+            opacity: 50;/* URL do seu GIF */
             background-size: cover; /* Faz com que o GIF cubra toda a área da tela */
             background-position: center; /* Centraliza o GIF */
             background-repeat: no-repeat; /* Evita a repetição do GIF */
