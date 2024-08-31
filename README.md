@@ -81,7 +81,7 @@
         // Array de imagens e músicas
         const media = [
             { img: "madoka-madoka-kaname.gif", music: "resonance - home (slowed & reverb).mp3" },
-            { img: "jjk-manga.gif", music: "the sylvers - remember the rain __SLOWED__.mp3" },
+            { img: jojo-anime.gif", music: "the sylvers - remember the rain __SLOWED__.mp3" },
             { img: "imagem3.gif", music: "musica3.mp3" }
         ];
 
