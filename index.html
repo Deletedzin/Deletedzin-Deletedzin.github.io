@@ -17,7 +17,7 @@
             align-items: center;
             height: 100vh;
             overflow: hidden;
-            background: linear-gradient(to bottom right, #89CFF0, #1e3c72); /* Gradiente Azul */
+            background: linear-gradient(to bottom right, #000099, #2e2dcb); /* Gradiente Azul */
         }
 
         .image-container {
