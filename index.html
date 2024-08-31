@@ -17,7 +17,7 @@
             align-items: center;
             height: 100vh;
             overflow: hidden;
-            background: linear-gradient(to bottom right, #a8e6cf, #dcedc1); /* Gradiente suave */
+            background: linear-gradient(to bottom right, #89CFF0, #1e3c72); /* Gradiente Azul */
         }
 
         .image-container {
@@ -81,7 +81,7 @@
         // Array de imagens e músicas
         const media = [
             { img: "madoka-madoka-kaname.gif", music: "resonance - home (slowed & reverb).mp3" },
-            { img: jojo-anime.gif", music: "the sylvers - remember the rain __SLOWED__.mp3" },
+            { img: "jojo-anime.gif", music: "the sylvers - remember the rain __SLOWED__.mp3" },
             { img: "imagem3.gif", music: "musica3.mp3" }
         ];
 
