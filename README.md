@@ -11,17 +11,24 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            background-image: url('power-poles-purple-sky-pixel-moewalls-com.gif'); /* URL do seu GIF */
-            background-size: cover; /* Faz com que o GIF cubra toda a área da tela */
-            background-position: center; /* Centraliza o GIF */
-            background-repeat: no-repeat; /* Evita a repetição do GIF */
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            overflow: hidden; /* Evita barras de rolagem indesejadas */
-            position: relative; /* Necessário para o posicionamento absoluto do conteúdo */
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Vídeo de fundo */
+        .background-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Faz com que o vídeo cubra toda a tela */
+            z-index: -1; /* Coloca o vídeo atrás do conteúdo */
         }
 
         .image-container {
@@ -64,6 +71,12 @@
 </head>
 
 <body>
+    <!-- Vídeo de fundo -->
+    <video class="background-video" autoplay muted loop>
+        <source src="power-poles-purple-sky-pixel-moewalls-com.mp4" type="video/mp4">
+
+    </video>
+
     <!-- Contêiner da Imagem com Setas -->
     <div class="image-container">
         <!-- Seta Esquerda -->
